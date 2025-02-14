@@ -126,3 +126,26 @@ table td, table th {
 table th {
     background-color: #eee;
 }
+#text-button-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+#add-button{
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: rgb(204, 204, 204);
+    font-size: 28px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    width: auto;
+    justify-content: center;
+    float: left;
+    transition: all 0.3s ease;
+}
+#add-button:hover{
+    background-color: rgb(165, 165, 165);
+    transition: all 0.3s ease;
+}
