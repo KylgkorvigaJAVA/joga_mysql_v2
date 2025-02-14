@@ -25,7 +25,18 @@ const getArticleBySlug = (req, res) => {
     })
 }
 
+const postNewArticle = (req, res) => {
+   let testSql = `INSERT INTO article (id, name, slug, image, body, published, author_id) VALUES
+(1, 'Introduction to Ashtanga', 'introduction-to-ashtanga', 'ashtanga.jpg', '<p>Body test</p>', '2020-01-08 15:02:30', 3)`;
+
+db.query(testSql, (error, result) => {
+    if (err) throw err;
+    console.log("1 record inserted");
+    })
+} 
+
 module.exports = {
     getAllArticles,
-    getArticleBySlug
+    getArticleBySlug,
+    postNewArticle
 }
