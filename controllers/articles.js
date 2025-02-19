@@ -26,14 +26,25 @@ const getArticleBySlug = (req, res) => {
 }
 
 const postNewArticle = (req, res) => {
-   let testSql = `INSERT INTO article (id, name, slug, image, body, published, author_id) VALUES
-(1, 'Introduction to Ashtanga', 'introduction-to-ashtanga', 'ashtanga.jpg', '<p>Body test</p>', '2020-01-08 15:02:30', 3)`;
+    const { name, slug, image, body, published, author_id } = req.body;
 
-db.query(testSql, (error, result) => {
-    if (err) throw err;
-    console.log("1 record inserted");
+    if (!name || !slug || !image || !body || !published || !author_id) {
+        return res.status(400).json({ error: "All fields are required" });
+    }
+    let sql = `INSERT INTO article (name, slug, image, body, published, author_id) VALUES
+                (?,?,?,?,?,?)`;
+
+    
+    const values = [name, slug, image, body, published, author_id];
+
+    db.query(sql, values, (err, result) => {
+        if (err) {
+            return res.status(500).json({ error: err.message })
+        };
+        res.status(201).json({ message: "1 record inserted", result })
+        console.log("1 record inserted");
     })
-} 
+}
 
 module.exports = {
     getAllArticles,

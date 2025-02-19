@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'qwerty',
+    password: '12345',//qwerty
     database: 'joga_mysql'
 });
 
