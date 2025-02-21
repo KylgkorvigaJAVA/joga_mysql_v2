@@ -4,6 +4,6 @@ const articleRouter = require('./routes/articles');
 
 app.use('/', articleRouter);
 
-app.listen(3012, () => {
+app.listen(3013, () => {
     console.log('Server RUNNING on localhost:3012');
 });

@@ -26,16 +26,19 @@ const getArticleBySlug = (req, res) => {
 }
 
 const postNewArticle = (req, res) => {
-    const { name, slug, image, body, published, author_id } = req.body;
 
-    if (!name || !slug || !image || !body || !published || !author_id) {
-        return res.status(400).json({ error: "All fields are required" });
-    }
+    console.log("Received request body:", req.body);
     let sql = `INSERT INTO article (name, slug, image, body, published, author_id) VALUES
                 (?,?,?,?,?,?)`;
 
-    
-    const values = [name, slug, image, body, published, author_id];
+    const values = [
+        req.body.name,
+        req.body.slug,
+        req.body.image,
+        req.body.body,
+        req.body.published,
+        req.body.author_id
+    ]
 
     db.query(sql, values, (err, result) => {
         if (err) {
