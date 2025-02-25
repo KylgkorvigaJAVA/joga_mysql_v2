@@ -8,10 +8,10 @@ const getAllArticles = (req, res) => {
         });
     })
 }
+
 const getArticleForm = (req, res) => {
     res.render('form');
-    }
-
+}
 
 const getArticleBySlug = (req, res) => {
     let sql = `SELECT * FROM article WHERE slug="${req.params.slug}"`
@@ -44,11 +44,16 @@ const postNewArticle = (req, res) => {
         req.body.author_id
     ]
 
-    db.query(sql, values, (err, result) => {
-        if (err) {
+    db.query(sql, values, (error, result) => {
+        if (error) {
             return res.status(500).json({ error: err.message })
         };
-        res.status(201).json({ message: "1 record inserted", result })
+        let sql = 'SELECT * FROM article';
+        db.query(sql, (error, result) => {
+            res.render('index', {
+                articles: result
+            });
+        })
         console.log("1 record inserted");
     })
 }

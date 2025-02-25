@@ -1,8 +1,10 @@
-
 <form action="/form/add-article" method="POST">
     <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
+    </div><div>
+        <label for="slug">Slug:</label>
+        <input type="text" id="slug" name="slug" required>
     </div>
     <div>
         <label for="published">Published Date:</label>
@@ -14,7 +16,7 @@
     </div>
     <div>
         <label for="image">Image URL:</label>
-        <input type="text" id="image" name="image" required>
+        <input type="text" id="image" name="image">
     </div>
     <div>
         <label for="body">Body:</label>
