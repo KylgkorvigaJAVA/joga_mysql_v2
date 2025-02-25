@@ -8,6 +8,10 @@ const getAllArticles = (req, res) => {
         });
     })
 }
+const getArticleForm = (req, res) => {
+    res.render('form');
+    }
+
 
 const getArticleBySlug = (req, res) => {
     let sql = `SELECT * FROM article WHERE slug="${req.params.slug}"`
@@ -51,6 +55,7 @@ const postNewArticle = (req, res) => {
 
 module.exports = {
     getAllArticles,
+    getArticleForm,
     getArticleBySlug,
     postNewArticle
 }
