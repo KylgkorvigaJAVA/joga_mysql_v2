@@ -3,7 +3,16 @@
 ## Millega tegu
 Tegemist on lihtsa paarilehelise projektiga, mille raames saab *esialgu* kuvada ja lisada jooga harjutuste artikleid.  
 ## Tarkvara ja selle paigaldamine
----
+
+Soovituslik IDE: Visual Basic
+
+- Programm kasutab NODE.js mootorit
+
+Paigaldamine kautades cmd terminali
+```
+npm install -g npm
+
+```
 ## Projekti allalaadimise juhend
 ---
 ## Projekti käivitamine
