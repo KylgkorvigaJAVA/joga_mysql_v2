@@ -14,7 +14,20 @@ npm install -g npm
 
 ```
 ## Projekti allalaadimise juhend
----
+Esmalt tuleb navigeerida cmd terminalis soovitud kausta
+näiteks:
+```
+cd username
+username@username:~$
+```
+
+Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk
+```
+git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
+```
+
+Palju õnne! Projekt on edukalt alla laetud ning valmis käivitama.
+
 ## Projekti käivitamine
 ---
 ## Kasutamise juhend
