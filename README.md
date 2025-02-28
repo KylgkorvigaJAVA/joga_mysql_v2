@@ -25,7 +25,7 @@ Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk:
 ```
 git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
 ```
-Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub automaatselt.
+Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub automaatselt./n
 Palju õnne! Projekt on edukalt alla laetud ning valmis käivitama.
 
 ## Projekti käivitamine
