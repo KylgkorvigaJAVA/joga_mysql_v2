@@ -27,7 +27,7 @@ Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk:
 git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
 
 ```
-Palju õnne! Projekt on edukalt alla laetud ning valmis käivitama.
+Palju õnne! Projekt on edukalt alla laetud ning valmis käivituseks.
 ## Projekti käivitamine
 ---
 ## Kasutamise juhend
