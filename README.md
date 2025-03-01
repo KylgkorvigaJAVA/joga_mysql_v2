@@ -6,17 +6,27 @@ Tegemist on lihtsa paarilehelise projektiga, mille raames saab _esialgu_ kuvada 
 
 ## Tarkvara ja selle paigaldamine
 
-- Soovituslik IDE: Visual Basic
+- Soovituslik IDE: Visual Studio Code
+  
+[Leiad **SIIT**]([https://www.google.com](https://visualstudio.microsoft.com/downloads/))
 
 - Programm kasutab NODE.js mootorit
 
-Paigaldamine kautades cmd terminali
+Paigaldamine kastades cmd terminali
 
 ```
-npm install -g npm
+curl -o- https://fnm.vercel.app/install | bash
+
+fnm install 23
+
+# Kontroll, kas on paigaldatud node:
+node -v # Peab printima "v23.9.0".
+
+# Kontroll, kas on paigaldatud npm:
+npm -v # Peab printima "10.9.2".
+
 
 ```
-
 ## Projekti allalaadimise juhend
 
 Esmalt tuleb navigeerida cmd terminalis soovitud kausta
@@ -50,7 +60,7 @@ Selleks tuleb minna projektikausta ning sisestada cmd terminalis järgmie käsk:
 npm install
 ```
 
-Npm edukalt installitud, saab projekti käivitada samas kaustas kasutades järgmist käsku:
+Npm edukalt installitud, saab projekti käivitada samas kaustas, kasutades järgmist käsku:
 
 ```
 npm start
