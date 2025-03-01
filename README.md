@@ -7,8 +7,9 @@ Tegemist on lihtsa paarilehelise projektiga, mille raames saab _esialgu_ kuvada 
 ## Tarkvara ja selle paigaldamine
 
 - Soovituslik IDE: Visual Studio Code
-  
-[]([https://www.google.com](https://visualstudio.microsoft.com/downloads/))
+
+https://visualstudio.microsoft.com/downloads/
+
 
 - Programm kasutab NODE.js mootorit
 
@@ -39,7 +40,7 @@ user@user:~$
 ```
 
 PS! Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub automaatselt.<br/>
-Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk:
+Seejärel tuleb cmd terminalis, soovitud kaustas, sisestada järgmine käsk:
 
 ```
 git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
@@ -60,7 +61,7 @@ Selleks tuleb minna projektikausta ning sisestada cmd terminalis järgmie käsk:
 npm install
 ```
 
-Npm edukalt installitud, saab projekti käivitada samas kaustas, kasutades järgmist käsku:
+Npm edukalt installitud saab projekti käivitada samas kaustas, kasutades järgmist käsku:
 
 ```
 npm start
