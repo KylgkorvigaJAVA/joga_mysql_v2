@@ -4,7 +4,7 @@
 Tegemist on lihtsa paarilehelise projektiga, mille raames saab *esialgu* kuvada ja lisada jooga harjutuste artikleid.  
 ## Tarkvara ja selle paigaldamine
 
-Soovituslik IDE: Visual Basic
+- Soovituslik IDE: Visual Basic
 
 - Programm kasutab NODE.js mootorit
 
