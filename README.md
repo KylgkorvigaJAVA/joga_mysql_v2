@@ -21,7 +21,8 @@ cd username
 username@username:~$
 
 ```
-PS Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub automaatselt.<br/>
+<br/>
+PS! Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub automaatselt.<br/>
 Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk:
 ```
 git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
