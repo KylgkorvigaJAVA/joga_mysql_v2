@@ -8,7 +8,7 @@ Tegemist on lihtsa paarilehelise projektiga, mille raames saab _esialgu_ kuvada 
 
 - Soovituslik IDE: Visual Studio Code
   
-[Leiad **SIIT**]([https://www.google.com](https://visualstudio.microsoft.com/downloads/))
+[]([https://www.google.com](https://visualstudio.microsoft.com/downloads/))
 
 - Programm kasutab NODE.js mootorit
 
