@@ -28,14 +28,23 @@ git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
 ```
 
 Palju õnne! Projekt on edukalt alla laetud ning valmis käivituseks.
+
 ## Projekti käivitamine
----
-## Kasutamise juhend
-Projekt edukalt istallitud, tuleb minna projekti kausta terminalis
 ```
 cd joga_mysql_v2
 ```
-Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälsied haldamisraamatukogud või paketud õigesti töötaksid.
+Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälsied haldamisraamatukogud või paketud õigesti töötaksid.<br/>
+Selleks tuleb minna projektikausta ning sisestada cmd terminalis järgmie käsk:
+```
+npm install
+```
+Npm edukalt installitud, saab projekti käivitada samas kaustas kasutades järgmist käsku:
+```
+npm satrt
+```
+
+---
+## Kasutamise juhend
 
 ## Arendajad (nende kontaktid)
 - Kaspar Viitkaar
