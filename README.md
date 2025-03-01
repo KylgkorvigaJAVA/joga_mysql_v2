@@ -43,7 +43,7 @@ Palju õnne! Projekt on edukalt alla laetud ning valmis käivituseks.
 cd joga_mysql_v2
 ```
 
-Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälsied haldamisraamatukogud või paketud õigesti töötaksid.<br/>
+Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälised haldamisraamatukogud või paketud õigesti töötaksid.<br/>
 Selleks tuleb minna projektikausta ning sisestada cmd terminalis järgmie käsk:
 
 ```
