@@ -25,6 +25,8 @@ PS! Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub a
 Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk:
 ```
 git clone git@github.com:KylgkorvigaJAVA/joga_mysql_v2.git
+```
+```
 loning into 'joga_mysql_v2'...
 remote: Enumerating objects: 157, done.
 remote: Counting objects: 100% (157/157), done.
@@ -34,7 +36,6 @@ Receiving objects: 100% (157/157), 502.13 KiB | 938.00 KiB/s, done.
 Resolving deltas: 100% (70/70), done.
 user@user:~$
 ```
-<br/>
 Palju õnne! Projekt on edukalt alla laetud ning valmis käivituseks.
 ## Projekti käivitamine
 ---
