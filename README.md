@@ -54,7 +54,7 @@ Palju õnne! Projekt on edukalt alla laetud ning valmis käivituseks.
 cd joga_mysql_v2
 ```
 
-Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälised haldamisraamatukogud või paketud õigesti töötaksid.<br/>
+Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälised haldamisraamatukogud või paketid õigesti töötaksid.<br/>
 Selleks tuleb minna projektikausta ning sisestada cmd terminalis järgmie käsk:
 
 ```
@@ -70,7 +70,9 @@ npm start
 ---
 
 ## Kasutamise juhend
+Ava endale sobib veebilehitseja ja sisesta otsinguribasse järgmine aadress
 
+http://localhost:3013/
 ## Arendajad (nende kontaktid)
 
 - Kaspar Viitkar
@@ -79,6 +81,6 @@ npm start
 
 ## Lisaallikad, mis oli kasutusel
 
--Stackoverflow
--ChatGPT
--W3Schools
+- Stackoverflow
+- ChatGPT
+- W3Schools
