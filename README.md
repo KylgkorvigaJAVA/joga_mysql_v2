@@ -21,7 +21,6 @@ cd username
 username@username:~$
 
 ```
-<br/>
 PS! Laadides alla projekti, ei ole vaja luua uut kausta. Kausta loomine toimub automaatselt.<br/>
 Seejärel tuleb cmd terminalis, soovitud kaustas sisestada järgmine käsk:
 ```
