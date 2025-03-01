@@ -33,8 +33,9 @@ Palju õnne! Projekt on edukalt alla laetud ning valmis käivituseks.
 ## Kasutamise juhend
 Projekt edukalt istallitud, tuleb minna projekti kausta terminalis
 ```
-cd joga_mysql_v2/
+cd joga_mysql_v2
 ```
+Koheselt ei saa projekt käivitada, esmalt tuleb installida 'sõltuvused' või inglise keeles "**Dependency**", et projektivälsied haldamisraamatukogud või paketud õigesti töötaksid.
 
 ## Arendajad (nende kontaktid)
 - Kaspar Viitkaar
